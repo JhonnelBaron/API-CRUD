@@ -7,9 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-##test
+## Process
 ```
-test
+# install api
+php artisan install:api
+
+# flow
+create migration
+create model
+create request
+create services for business logic
+create controller
+create routes in api.php
+test api using postman/thunderclient/insomnia
 ```
 
 ## About Laravel
